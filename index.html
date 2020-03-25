@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPT Grupa</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="menu-activea">
+        <h1>NAVBAR</h1>
+        <ul>
+            <li>Kontakti</li>
+            <li>Karte</li>
+            <li>Par mums</li>
+            <li>Par jums</li>
+        </ul>
+    </nav>
+
+    <main>
+        <video autoplay muted loop id="myVideo">
+            <source src="../VIDEO/RENDER.mp4" type="video/mp4">
+    </main>
+    <div class="contact-form-wrapper">
+        <form>
+            <div class="form-group">
+              <label class="text-white for="exampleInputName">Vārds</label>
+              <input type="text" class="form-control" placeholder="Ievadiet savu vārdu">
+            </div>
+            <div class="form-group">
+              <label class="text-white for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small class="text-white id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            
+            <div class="form-group">
+                <label class="text-white for="exampleFormControlTextarea1">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Sūtīt</button>
+          </form>
+    </div>
+
+</body>
+
+</html>
