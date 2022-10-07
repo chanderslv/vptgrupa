@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ivoandco/laiks.ivoand.com/
+    - /bin/cp * $DEPLOYPATH
